@@ -89,6 +89,12 @@ header {
   box-shadow: 0 0 10px #00000057;
 }
 
+.tab-content .tab-pane .card:hover {
+  box-shadow: 0 0 10px #bd0707b0;
+
+  transition: all 0.5s;
+}
+
 /* Service */
 #service {
   background-image: url("./../images/3.jpg");
@@ -168,8 +174,6 @@ header {
   color: #aaa;
 }
 
-
-
 #footer .footer-copies {
   border-top: 1px solid #454545;
   padding-top: 30px;
@@ -178,7 +182,7 @@ header {
 
 .footer-copies p {
   color: #aaa;
-  margin: 0 ;
+  margin: 0;
 }
 
 .footer-copies a {
