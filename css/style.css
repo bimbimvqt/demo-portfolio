@@ -105,6 +105,15 @@ header {
   background-attachment: fixed;
 }
 
+#service .card:hover {
+  background-color: rgba(0, 0, 0, 0.522);
+}
+
+#service .card i {
+  color: #35a22c;
+  margin-bottom: 20px;
+}
+
 #service .card {
   background-color: #ffffff21;
   color: white;
